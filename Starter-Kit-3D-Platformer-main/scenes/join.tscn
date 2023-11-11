@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://c8flbcxnn7uov"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Join" type="Button" parent="."]
+offset_left = 293.0
+offset_top = 335.0
+offset_right = 1038.0
+offset_bottom = 434.0
+text = "Join
+"
+
+[node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="."]
+spawn_path = NodePath("..")
